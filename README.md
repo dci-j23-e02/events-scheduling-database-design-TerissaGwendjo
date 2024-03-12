@@ -76,7 +76,7 @@ Design a PostgreSQL database for an event scheduling application. This database 
 
 For each table, insert at least 5 records. Here's an example for the **Events** table:
 
-```sql
+``` sql
 INSERT INTO events (event_id, title, description, venue_id, organizer_id, schedule) VALUES
 ('uuid-1', 'Tech Conference', '{"topics":["AI", "Cloud"]}', 'venue-uuid-1', 'org-uuid-1', '[2023-10-01 09:00, 2023-10-01 17:00]'),
 ('uuid-2', 'Music Festival', '{"genres":["Rock", "Pop"]}', 'venue-uuid-2', 'org-uuid-2', '[2023-08-05 12:00, 2023-08-05 23:00]');
